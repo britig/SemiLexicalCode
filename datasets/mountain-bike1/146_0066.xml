@@ -1,0 +1,26 @@
+<annotation>
+	<folder>mountain-bike1</folder>
+	<filename>146_0066.jpg</filename>
+	<path>/home/somnath/Documents/Project/darkflow-master/new_model_data/mountain-bike1/146_0066.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>218</width>
+		<height>163</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bicycle</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>9</xmin>
+			<ymin>1</ymin>
+			<xmax>209</xmax>
+			<ymax>163</ymax>
+		</bndbox>
+	</object>
+</annotation>

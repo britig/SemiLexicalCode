@@ -1,0 +1,26 @@
+<annotation>
+	<folder>tricycle1</folder>
+	<filename>229_0015.jpg</filename>
+	<path>/home/somnath/Documents/Project/darkflow-master/new_model_data/tricycle1/229_0015.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>275</width>
+		<height>183</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>tri cycle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>41</xmin>
+			<ymin>17</ymin>
+			<xmax>260</xmax>
+			<ymax>171</ymax>
+		</bndbox>
+	</object>
+</annotation>

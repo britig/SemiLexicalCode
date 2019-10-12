@@ -1,0 +1,38 @@
+<annotation>
+	<folder>unicycle1</folder>
+	<filename>362_0007.jpg</filename>
+	<path>/home/somnath/Documents/Project/darkflow-master/new_model_data/unicycle1/362_0007.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>401</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>uni cycle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>33</xmin>
+			<ymin>271</ymin>
+			<xmax>213</xmax>
+			<ymax>530</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>uni cycle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>250</xmin>
+			<ymin>264</ymin>
+			<xmax>375</xmax>
+			<ymax>539</ymax>
+		</bndbox>
+	</object>
+</annotation>
