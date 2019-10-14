@@ -1,0 +1,1 @@
+<annotation><folder>testimg/actual</folder><file>img0007.jpg</file><segmented>0</segmented><size><width>272</width><height>186</height><depth>3</depth><difficult>0</difficult></size><object><name>wheel</name><pose>Unspecified</pose><truncated>0</truncated><bndbox><xmin>166</xmin><ymin>89</ymin><xmax>271</xmax><ymax>175</ymax></bndbox></object></annotation>
