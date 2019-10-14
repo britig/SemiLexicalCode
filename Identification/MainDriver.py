@@ -1,10 +1,11 @@
 import os
 import logicchecker
+import testimg as tg
 import utility
 
 if __name__ == "__main__":
-    input_directory_uni = "/home/amit/Desktop/SemiLexicalExperimentsCycle Dataset/unicycle"
-    input_directory_bi = "/home/amit/Desktop/SemiLexicalExperimentsCycle Dataset/bicycle"
+    tg.run_yolo()
+    input_directory = "../testimg/modified"
     # logicchecker.check_unicycle(input_directory, 'un1.jpg')
 
 '''for filename in os.listdir(input_directory):
@@ -15,13 +16,15 @@ if __name__ == "__main__":
     break'''
 
 # Spatial distance computation for unicycles
-for filename in os.listdir(input_directory_uni):
+for filename in os.listdir(input_directory):
     if ".jpg" in filename:
         print(filename)
-        utility.compute_spatial_uni(input_directory_uni, filename)
+        result = utility.compute_spatial_uni(input_directory, filename)
+        print("uni"+str(result))
 
-'''# Spatial distance computation for bicycles
-for filename in os.listdir(input_directory_bi):
-    if ".jpeg" in filename:
+# Spatial distance computation for bicycles
+for filename in os.listdir(input_directory):
+    if ".jpg" in filename:
         print(filename)
-        utility.compute_spatial_bi(input_directory_bi, filename)'''
+        result = utility.compute_spatial_bi(input_directory, filename)
+        print("bi"+str(result))
